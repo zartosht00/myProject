@@ -1,7 +1,7 @@
 pipeline {
   agent { label 'jslave_4 Core Linux Slave1' }
   tools {
-    maven 'M3'
+    maven 'Maven 3'
   }
   stages {
     stage('checkout') {

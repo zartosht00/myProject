@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'jslave_4 Core Linux Slave1' }
+  agent any
   tools {
     maven 'Maven 3'
   }

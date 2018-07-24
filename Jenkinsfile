@@ -25,7 +25,7 @@ pipeline {
         sh 'mvn package'
       }
       post {
-        sucess {
+        success {
           echo "Only when we haven't failed running the first stage"
         }
         failure {

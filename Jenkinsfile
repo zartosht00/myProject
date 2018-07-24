@@ -33,6 +33,10 @@ pipeline {
           echo "Only when we fail running the first stage."
         }
       }
+      options {
+        buildDiscarder(logRotator(numToKeepStr:'10'))
+        timeout(time: 60, unit: 'MINUTES')
+      }
     }
   }
 }

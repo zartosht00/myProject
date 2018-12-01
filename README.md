@@ -1,4 +1,4 @@
-This is an example project with maven pipeline and others.
+This is an example project with maven pipeline and others. Jaziz loves jenkins
 ----
 
 ### This project has been created with the following command:

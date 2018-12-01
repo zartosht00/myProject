@@ -1,4 +1,4 @@
-This is an example project with maven pipeline.
+This is an example project with maven pipeline and others.
 ----
 
 ### This project has been created with the following command:

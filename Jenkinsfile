@@ -21,12 +21,6 @@ pipeline {
         junit '**/target/surefire-reports/TEST-*.xml'
       }
     }
-    stage('Email Notification') {
-      mail bcc: '', body: '''Hi Welcome to jenkins email alerts
-      Thanks
-      Hari''', cc: '', from: '', replyTo: '', subject: 'Jenkins Job', to: 'mfhoss@gmail.com'
-   }
-  
     stage('Production') {
       steps {
         sh 'mvn package'

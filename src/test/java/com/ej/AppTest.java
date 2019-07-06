@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * this is z test
+ * this is z test and test
  */
 public class AppTest 
     extends TestCase
